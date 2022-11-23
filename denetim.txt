@@ -6,3 +6,24 @@
   // args[0]
 }
 return;
+
+
+ //console.log(message.content.split(' ').length)
+ //message.content.split(' ').length
+
+ //console.log(message.content.split(' ').slice(1))
+ // arr.push(message.content.split(' ').slice(1))
+
+     //if (message.author.id !== ayarlar.botOwner && message.author.id !== message.guild.owner.id) return;
+ // buraya if eklenip komut eklenebilir
+ //let args = message.content.split(' ').slice(1);
+
+
+
+     //const arr = new Array
+
+
+
+     //console.log(arr.join(' '))
+  
+ //console.log(command)

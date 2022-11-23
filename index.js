@@ -92,27 +92,22 @@ client.on("messageCreate", async message => {
 
 
 client.on("messageCreate", async message => {
-    //const arr = new Array
+
     const db = new bendb({
         path: `./database.json`,
         seperator: ".",
         spaces: 10
     });
     if (message.author.bot || !message.guild || message.content.toLowerCase().startsWith(prefix)) return;
-    //if (message.author.id !== ayarlar.botOwner && message.author.id !== message.guild.owner.id) return;
- // buraya if eklenip komut eklenebilir
- //let args = message.content.split(' ').slice(1);
- let command = message.content.split()
- console.log(message.content.split(' ').length)
- //message.content.split(' ').length
 
- console.log(message.content.split(' ').slice(1))
- // arr.push(message.content.split(' ').slice(1))
+ let command = message.content.split()
+
  let arr = message.content.split(' ').slice(1)
-console.log(arr.join(' '))
-  
- console.log(command)
+
  if(db.get(`${command}`) === null) {
     message.channel.send({content: `girdiğiniz ${command} kelimesi bulunamadı, lütfen bu kelimeyi oluşturmak için ${prefix}kelime ${command} 'yazılacak şey' diye yazabilir misiniz.`})
+ }
+ else if(db.get(`${command}`) !== null){
+  message.channel.send({content:`${db.get(`${command}`)}`})
  }
 });
