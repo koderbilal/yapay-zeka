@@ -1,0 +1,8 @@
+ if(command === "safe"){ // komutlar bu şekilde eklenecektir. if(command === "komut")
+    // kullanımı !safe id şeklindedir
+// let abici = message.guild.members.cache.get(args[0])
+  message.channel.send(`merhaba dünya`)
+  //message.channel.send({ content: `${config.mesajsil}`})
+  // args[0]
+}
+return;
