@@ -1,1 +1,1 @@
-yapay zeka
+basit bir yapay zeka denemesi
