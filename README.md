@@ -6,6 +6,6 @@ sizler bu projeyi geliştirebilirsiniz
 
 bu yapay zeka discord platformunda bot olarak çalıştırılabilecek niteliğe sakiptir, benim amacımda bu yöndedir, kullanıcılardan yazılan kelimeleri algılayıp cevap vermesi gereklidir. ama proje yarım kalmıştır.
 
-![resim](./img.png)
+![resim](https://github.com/koderbilal/yapay-zeka/resim.png)
 
 yukarıdaki resimde benim eklediğim kelimeler gözüküyor, sizler daha fazla kelime ekleyebilirsiniz.
